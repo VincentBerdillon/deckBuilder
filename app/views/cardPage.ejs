@@ -1,0 +1,21 @@
+<%- include('header') %>
+
+
+<h1><%= card.name %></h1>
+
+<div class="cardsContainer">
+  
+
+    <div class="card">
+        <img src="/visuals/<%= card.visual_name %>" alt="<%= card.name %> illustration">
+        <p class="cardName"><%= card.name %></p>
+    </div>
+    <p><a class="link--addCard" title="Ajouter au deck" href="#">Ajouter au deck</a></p>
+    <p><a class="link--addCard" title="Retour à l'accueil" href="/">Retour à l'accueil</a></p>
+
+
+</div>
+
+
+
+<%- include('footer') %>
